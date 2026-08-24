@@ -1,0 +1,199 @@
+{
+  "attemptId": "MICO_TEST_001_20260824052158",
+  "candidateName": "Test Candidate",
+  "role": "Therapist",
+  "evaluationDate": "2026-08-24",
+  "evaluatorModel": "gpt-4o",
+  "evaluationFramework": "MICO x icrewsystems AI Self Screening Evaluation Framework v1.0",
+  "inputSources": [
+    "Fathom video summary (limited - no verbatim transcript provided)",
+    "Timestamped topic overview only"
+  ],
+  "limitations": [
+    "No verbatim transcript provided - only high-level topic summary with timestamps",
+    "Cannot evaluate clinical reasoning, intervention planning, risk assessment, or ethics without candidate's actual words",
+    "Scores reflect insufficient evidence rather than candidate deficiency",
+    "All observations are inferred from topic headings only"
+  ],
+  "categoryEvaluations": {
+    "A_Communication_Empathy": {
+      "score": 3,
+      "evidence": [
+        {
+          "timestamp": "00:00",
+          "quote": "[Candidate introduces themselves - no verbatim content available]",
+          "context": "Opening introduction observed in summary only"
+        }
+      ],
+      "observedBehavior": "Candidate completed an introduction at start of screening. Unable to assess empathy, psychological safety creation, listening approach, or non-judgmental communication without transcript content.",
+      "clinicalInterpretation": "Insufficient evidence to evaluate. Introduction alone does not demonstrate therapeutic communication skills.",
+      "strengths": [],
+      "concerns": [
+        {
+          "concern": "No evidence of therapeutic communication style",
+          "whyItMatters": "Core to therapeutic alliance and client engagement",
+          "evidence": "Summary only notes 'introduces themselves' with no content",
+          "verifyInNextInterview": "Observe how candidate explains concepts, responds to hypothetical client statements, demonstrates active listening"
+        }
+      ]
+    },
+    "B_Clinical_Assessment": {
+      "score": 2,
+      "evidence": [
+        {
+          "timestamp": "03:45",
+          "quote": "[Candidate discusses clinical assessment - no verbatim content available]",
+          "context": "Topic mentioned in summary at 03:45"
+        }
+      ],
+      "observedBehavior": "Summary indicates candidate discussed clinical assessment topic. No information on information gathering approach, symptom understanding, or context exploration.",
+      "clinicalInterpretation": "Cannot evaluate assessment competence. Topic coverage ≠ demonstrated skill.",
+      "strengths": [],
+      "concerns": [
+        {
+          "concern": "No demonstrated assessment reasoning",
+          "whyItMatters": "Assessment drives all subsequent clinical decisions",
+          "evidence": "Only topic header 'discusses clinical assessment' in summary",
+          "verifyInNextInterview": "Present clinical vignette; evaluate differential consideration, biopsychosocial formulation, collateral gathering, cultural formulation"
+        }
+      ]
+    },
+    "C_Clinical_Reasoning": {
+      "score": 2,
+      "evidence": [
+        {
+          "timestamp": "03:45",
+          "quote": "[Candidate discusses clinical assessment, risk awareness, ethics, and supervision needs - no verbatim content available]",
+          "context": "Multiple topics grouped in summary at 03:45"
+        }
+      ],
+      "observedBehavior": "Summary groups clinical assessment, risk awareness, ethics, and supervision in single timestamp. No reasoning process visible.",
+      "clinicalInterpretation": "Cannot evaluate formulation ability, symptom-cause connections, or thinking-before-intervention. Topic listing does not equal reasoning demonstration.",
+      "strengths": [],
+      "concerns": [
+        {
+          "concern": "No observable clinical reasoning process",
+          "whyItMatters": "Reasoning quality determines treatment safety and efficacy",
+          "evidence": "Summary provides topics only, no reasoning chains",
+          "verifyInNextInterview": "Ask candidate to walk through formulation for a complex case; evaluate hypothesis generation, ruling out alternatives, treatment selection rationale"
+        }
+      ]
+    },
+    "D_Intervention_Planning": {
+      "score": 1,
+      "evidence": [],
+      "observedBehavior": "No mention of intervention planning, therapeutic approaches, evidence-based thinking, or treatment planning in summary.",
+      "clinicalInterpretation": "No evidence available to evaluate. Complete gap in provided summary.",
+      "strengths": [],
+      "concerns": [
+        {
+          "concern": "Intervention planning not addressed in screening",
+          "whyItMatters": "Core therapist competency - translates assessment to action",
+          "evidence": "Absent from summary topics",
+          "verifyInNextInterview": "Evaluate modality knowledge, treatment planning for specific presentations, outcome monitoring, flexibility/adaptation"
+        }
+      ]
+    },
+    "E_Risk_Safety_Management": {
+      "score": 2,
+      "evidence": [
+        {
+          "timestamp": "03:45",
+          "quote": "[Candidate discusses risk awareness - no verbatim content available]",
+          "context": "Risk awareness mentioned as topic at 03:45"
+        }
+      ],
+      "observedBehavior": "Summary notes 'risk awareness' as discussed topic. No detail on suicide/self-harm assessment components, crisis response, or escalation thinking.",
+      "clinicalInterpretation": "Critical competency - cannot be evaluated from topic mention alone. Risk awareness ≠ risk assessment competence.",
+      "strengths": [],
+      "concerns": [
+        {
+          "concern": "No demonstrated structured risk assessment",
+          "whyItMatters": "Patient safety depends on systematic risk evaluation",
+          "evidence": "Only 'risk awareness' topic header in summary",
+          "verifyInNextInterview": "Mandatory: evaluate C-SSRS or equivalent components (ideation, plan, intent, means, lethality, protective factors, history), crisis planning, documentation, escalation protocols"
+        }
+      ]
+    },
+    "F_Ethics_Professional_Boundaries": {
+      "score": 2,
+      "evidence": [
+        {
+          "timestamp": "03:45",
+          "quote": "[Candidate discusses ethics - no verbatim content available]",
+          "context": "Ethics mentioned as topic at 03:45"
+        }
+      ],
+      "observedBehavior": "Summary notes 'ethics' discussed. No information on scope of practice, confidentiality nuances, boundary management, dual relationships, or mandatory reporting.",
+      "clinicalInterpretation": "Ethics knowledge cannot be assumed from topic coverage. Requires scenario-based evaluation.",
+      "strengths": [],
+      "concerns": [
+        {
+          "concern": "No demonstrated ethical reasoning",
+          "whyItMatters": "Ethical violations cause client harm and legal liability",
+          "evidence": "Only 'ethics' topic header in summary",
+          "verifyInNextInterview": "Present ethical dilemmas (confidentiality limits, boundary crossings, mandated reporting, competence limits); evaluate decision-making framework"
+        }
+      ]
+    },
+    "G_Self_Awareness_Reflective_Practice": {
+      "score": 3,
+      "evidence": [
+        {
+          "timestamp": "01:10",
+          "quote": "[Candidate explains their motivation for psychology - no verbatim content available]",
+          "context": "Motivation discussed at 01:10"
+        },
+        {
+          "timestamp": "03:45",
+          "quote": "[Candidate discusses supervision needs - no verbatim content available]",
+          "context": "Supervision needs mentioned at 03:45"
+        }
+      ],
+      "observedBehavior": "Candidate discussed motivation for field (01:10) and supervision needs (03:45). These topics suggest some self-reflection capacity. No content on triggers, countertransference management, or specific reflective practices.",
+      "clinicalInterpretation": "Minimal positive signal - willingness to discuss motivation and supervision needs indicates baseline openness. Depth unknown.",
+      "strengths": [
+        {
+          "strength": "Acknowledges need for supervision",
+          "evidence": "Summary notes 'supervision needs' discussed at 03:45",
+          "clinicalRelevance": "Supervision utilization correlates with therapist development and client safety"
+        }
+      ],
+      "concerns": [
+        {
+          "concern": "No evidence of countertransference awareness or trigger management",
+          "whyItMatters": "Unmanaged countertransference impairs clinical judgment",
+          "evidence": "Not mentioned in summary",
+          "verifyInNextInterview": "Ask about challenging client reactions, personal triggers, how they use supervision for self-reflection, specific examples of countertransference recognition"
+        }
+      ]
+    }
+  },
+  "profileSummary": "This candidate completed the self-screening but the provided summary contains only topic headers without any verbatim responses. From what little is visible: they introduced themselves, shared motivation for psychology, and touched on assessment, risk, ethics, and supervision. That's the entire observable footprint.\n\nWhat kind of person? Impossible to say. The summary strips away all personality markers - no language style, no emotional tone, no spontaneity, no hesitation patterns.\n\nNatural strengths? Only one faint signal: they brought up supervision needs unprompted (or at least it made the summary). That suggests some awareness that they're early-career and need support. That's not nothing.\n\nWhat to validate? Everything. Clinical reasoning, risk assessment structure, ethical decision-making, intervention planning, boundary management, countertransference awareness. The screening format failed to capture demonstrative content.\n\nMy read: This isn't a candidate evaluation - it's a screening tool failure. We have topics but no evidence. Next interview must be structured to elicit demonstrative responses, not topic coverage.",
+  "finalRecommendation": {
+    "decision": "Hold for Further Review",
+    "rationale": "The provided Fathom summary contains only topic headers with timestamps - no verbatim candidate responses, no clinical vignettes, no reasoning demonstrations. All seven competency categories lack sufficient evidence for evaluation. Scores reflect evidence absence, not candidate deficiency. A proper clinical interview with structured scenarios is required before any proceed/do not proceed decision can be made.",
+    "requiredNextSteps": [
+      "Conduct live clinical interview with standardized vignettes",
+      "Evaluate suicide risk assessment using structured protocol (C-SSRS or equivalent)",
+      "Present ethical dilemma scenarios for reasoning evaluation",
+      "Assess formulation and treatment planning for complex case",
+      "Explore countertransference awareness with specific examples",
+      "Verify supervision utilization patterns and reflective capacity"
+    ]
+  },
+  "aiEvaluationDetails": {
+    "modelUsed": "gpt-4o",
+    "evaluationFramework": "MICO x icrewsystems AI Self Screening Evaluation Framework v1.0",
+    "inputSources": [
+      "Fathom video summary (limited - no verbatim transcript provided)",
+      "Timestamped topic overview only"
+    ],
+    "limitations": [
+      "No verbatim transcript provided - only high-level topic summary with timestamps",
+      "Cannot evaluate clinical reasoning, intervention planning, risk assessment, or ethics without candidate's actual words",
+      "Scores reflect insufficient evidence rather than candidate deficiency",
+      "All observations are inferred from topic headings only"
+    ]
+  }
+}
