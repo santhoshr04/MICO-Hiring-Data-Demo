@@ -1,0 +1,15 @@
+MICO Self Screening Submission
+================================
+Attempt ID: MICO_TEST_001_20260824052158
+Submitted At: 2026-08-24T05:21:58.166Z
+Unique Code: MICO_TEST_001
+Candidate Name: Test Candidate
+Role: Therapist
+
+Recording URL
+-------------
+https://fathom.video/share/example-recording-link
+
+Fathom Summary / Transcript
+--------------------------
+00:00 Candidate introduces themselves. 01:10 Candidate explains their motivation for psychology. 03:45 Candidate discusses clinical assessment, risk awareness, ethics, and supervision needs.
