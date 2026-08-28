@@ -1,0 +1,15 @@
+MICO Self Screening Submission
+================================
+Attempt ID: fc81c440-9ffa-4833-8dba-5ef317d89a33_20260828080933
+Submitted At: 2026-08-28T08:09:33.056Z
+Unique Code: fc81c440-9ffa-4833-8dba-5ef317d89a33
+Candidate Name: Santhosh
+Role: Therapist
+
+Recording URL
+-------------
+https://fathom.video/share/example-recording-link
+
+Fathom Summary / Transcript
+----------------------------
+00:00 Candidate introduces themselves. 01:10 Candidate explains their motivation for psychology. 03:45 Candidate discusses clinical assessment, risk awareness, ethics, and supervision needs.
